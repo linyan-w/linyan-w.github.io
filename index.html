@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Academic Personal Website</title>
+		<style>
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+}
+		  header {
+			  background-color: #002366; /* Dark Blue */
+			  color: white;
+			  padding: 10px 0;
+			  text-align: center;
+		  }
+		  nav {
+			  margin: 20px;
+			  text-align: center;
+		  }
+		  nav a {
+			  margin: 0 15px;
+			  text-decoration: none;
+			  color: #002366; /* Dark Blue */
+			  font-size: 18px;
+		  }
+		  .container {
+			  max-width: 1000px;
+			  margin: 0 auto;
+			  padding: 20px;
+		  }
+		  .profile, .resources-section, .cv-section{
+			  background-color: white;
+			  padding: 20px;
+			  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			  margin-bottom: 20px;
+		  }
+		  .resources-section{
+			  margin-bottom: 40px;
+		  }
+		  .profile{
+			  display: flex;
+			  align-items: center;
+		  }
+		  .profile img {
+			  border-radius: 50%;
+			  margin-right: 20px;
+			  width: 150px;
+			  height: 150px;
+			  object-fit: cover;
+		  }
+		  .profile h2, .resources-section h2, .cv-section h2 {
+			  color: #002366; /* Dark Blue */
+		  }
+		  footer {
+			  background-color: #002366; /* Dark Blue */
+			  color: white;
+			  text-align: center;
+			  padding: 10px 0;
+			  position: fixed;
+			  width: 100%;
+			  bottom: 0;
+		  }
+		  footer a {
+			  color: white; /* Ensures the link in the footer is white */
+		  }
+		  footer p {
+			  margin: 0;
+		  }
+		  a {
+			  color: #002366; /* Dark Blue */
+			  text-decoration: none;
+		  }
+		  a:hover {
+			  text-decoration: underline;
+		  }
+		  .cv-section {
+			  background-color: white;
+			  padding: 20px;
+			  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		  }
+		  .cv-section h2 {
+			  color: #002366;
+		  }
+		  .cv-section ul {
+			  list-style-type: none;
+			  padding: 0;
+		  }
+		  .cv-section ul li {
+			  padding: 5px 0;
+			  font-size: 16px;
+		  }		  
+		</style>
+	</head>
+	<body>
+
+		<header>
+			<h1>Dr. Linyan Wan</h1>
+			<p>Scientist | Experimental Neutrino Physicist </p>
+		</header>
+
+		<nav>
+			<a href="#profile">Profile</a>
+			<a href="#cv">CV</a>
+			<a href="#resources">Collaborating</a>
+			<a href="#contact">Contact</a>
+		</nav>
+
+		<div class="container">
+
+			<!-- Profile Section with Photo -->
+			<section id="profile" class="profile">
+				<img src="profile.jpg" alt="Linyan Wan"> <!-- Add your photo here -->
+				<div>
+					<h2>About Me</h2>
+					<p>
+					I am Linyan, a scientist of neutrino physics at Fermilab. 
+					My research focuses on neutrino oscillation, astroparticle physics, and beyond-standard-model search.
+					I'm currently working on SBND, DUNE, and Super-Kamiokande.
+					</p>
+				</div>
+			</section>
+
+			<!-- CV Section -->
+			<section id="cv" class="cv-section">
+				<h2>Curriculum Vitae</h2>
+				<p><a href="cv.pdf" download>Download my CV</a>.</p>
+				<p>For a full list of my publications, see <a class="btn btn-outline-primary mr-2 font-weight-bold" href="https://inspirehep.net/authors/1628930">INSPIRE-HEP</a>.</p>
+			</section>
+
+			<!-- Resources Section -->
+			<section id="resources" class="resources-section">
+				<h2>Work with Me</h2>
+				<p>For <strong>undergraduate students</strong>, consider applying for the <a href="https://internships.fnal.gov/science-undergraduate-laboratory-internship-suli/" download>SULI program</a> and look for my name in the supervisor list.</p>
+				<p>For <strong>graduate students</strong>, consider applying for the <a href="https://www.fnal.gov/pub/forphysicists/fellowships/ura_visiting_scholars/index.html" download>URA Visiting Scholar program</a> and <a href="mailto:lwan@fnal.gov">reach out to me</a>.</p>
+				<p>For <strong>outreach requests</strong>, please <a href="mailto:lwan@fnal.gov">email me</a>.</p>
+			</section>
+
+		</div>
+
+		<!-- Contact Section -->
+		<footer>
+			<p>Contact: <a href="mailto:lwan@fnal.gov">lwan@fnal.gov</a> | Fermilab </p>
+		</footer>
+
+	</body>
+</html>
+
